@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA1611771ADC18E60071A0E5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EA1611761ADC18E60071A0E5 /* main.c */; };
+		EA7AC7001C30368700E1EA20 /* libAhmed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7AC6FE1C30368700E1EA20 /* libAhmed.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA1611711ADC18E60071A0E5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EA1611731ADC18E60071A0E5 /* hashtable2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hashtable2; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA1611761ADC18E60071A0E5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		EA7AC6FE1C30368700E1EA20 /* libAhmed.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAhmed.a; sourceTree = "<group>"; };
+		EA7AC6FF1C30368700E1EA20 /* Ahmed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ahmed.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA1611701ADC18E60071A0E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7AC7001C30368700E1EA20 /* libAhmed.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA16116A1ADC18E60071A0E5 = {
+			isa = PBXGroup;
+			children = (
+				EA7AC6FE1C30368700E1EA20 /* libAhmed.a */,
+				EA7AC6FF1C30368700E1EA20 /* Ahmed.h */,
+				EA1611751ADC18E60071A0E5 /* hashtable2 */,
+				EA1611741ADC18E60071A0E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA1611741ADC18E60071A0E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA1611731ADC18E60071A0E5 /* hashtable2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA1611751ADC18E60071A0E5 /* hashtable2 */ = {
+			isa = PBXGroup;
+			children = (
+				EA1611761ADC18E60071A0E5 /* main.c */,
+			);
+			path = hashtable2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA1611721ADC18E60071A0E5 /* hashtable2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA16117A1ADC18E60071A0E5 /* Build configuration list for PBXNativeTarget "hashtable2" */;
+			buildPhases = (
+				EA16116F1ADC18E60071A0E5 /* Sources */,
+				EA1611701ADC18E60071A0E5 /* Frameworks */,
+				EA1611711ADC18E60071A0E5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hashtable2;
+			productName = hashtable2;
+			productReference = EA1611731ADC18E60071A0E5 /* hashtable2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA16116B1ADC18E60071A0E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Ahmed Masoud";
+				TargetAttributes = {
+					EA1611721ADC18E60071A0E5 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = EA16116E1ADC18E60071A0E5 /* Build configuration list for PBXProject "hashtable2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA16116A1ADC18E60071A0E5;
+			productRefGroup = EA1611741ADC18E60071A0E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA1611721ADC18E60071A0E5 /* hashtable2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA16116F1ADC18E60071A0E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA1611771ADC18E60071A0E5 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA1611781ADC18E60071A0E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EA1611791ADC18E60071A0E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EA16117B1ADC18E60071A0E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/hash,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/hash,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/hash,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/hash,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data,
+					structures/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/old,
+					mac/programming/clg,
+					data,
+					structures/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/old,
+					mac/programming/clg,
+					data,
+					structures/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/old,
+					mac/programming/clg,
+					data,
+					structures/data,
+					labs/Ahmed,
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA16117C1ADC18E60071A0E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/hash,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/hash,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/hash,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/hash,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/clg/data,
+					structures/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/old,
+					mac/programming/clg,
+					data,
+					structures/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/old,
+					mac/programming/clg,
+					data,
+					structures/data,
+					labs/Ahmed,
+					/Users/ahmedmasoud/Desktop/old,
+					mac/programming/clg,
+					data,
+					structures/data,
+					labs/Ahmed,
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA16116E1ADC18E60071A0E5 /* Build configuration list for PBXProject "hashtable2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA1611781ADC18E60071A0E5 /* Debug */,
+				EA1611791ADC18E60071A0E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA16117A1ADC18E60071A0E5 /* Build configuration list for PBXNativeTarget "hashtable2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA16117B1ADC18E60071A0E5 /* Debug */,
+				EA16117C1ADC18E60071A0E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA16116B1ADC18E60071A0E5 /* Project object */;
+}
